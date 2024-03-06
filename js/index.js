@@ -26,7 +26,7 @@
   }
   async function fetchData() {
     try {
-      const res = await fetch("../data/travel_recommendation_api.json");
+      const res = await fetch("./data/travel_recommendation_api.json");
       const data = await res.json();
       return data;
     } catch (e) {
